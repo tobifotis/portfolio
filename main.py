@@ -9,8 +9,12 @@ with col1:
 with col2:
     st.title("Tobi Emmanuel")
     content = """
-    Hi, I am Tobi! I am an aspiring developer and currently a full-time student.
-    I am a junior studying computer science at the University of North Texas.
+    Hi, I am Tobi! I am an aspiring developer and currently a full-time computer science junior at the University of North Texas.
     In my free time, I enjoy learning new technologies, building projects, and playing soccer.
     """
     st.info(content)
+
+    content2 = """
+    Below you can find some of the apps i have developed in Python. Feel free to contact me!
+    """
+st.write(content2)
